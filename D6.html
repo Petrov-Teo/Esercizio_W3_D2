@@ -94,7 +94,7 @@
 
     const changeTitle = function () {
       const titoloPagina = document.getElementsByTagName("h1")[0];
-      titoloPagina.textContent = "Benvenuti nel nostro nuovsissimo sito";
+      titoloPagina.textContent = "Benvenuti Nel Nostro Nuovsissimo Sito";
       console.log(titoloPagina)
     }
 
@@ -135,10 +135,21 @@
     /* ESERCIZIO 4
      Scrivi una funzione che cambi la proprietà href di ogni link (tranne quello nel footer) con il valore https://www.google.com
     */
+    const changeLink = document.getElementsByTagName("a")
 
+
+    console.log(changeLink)
     const changeUrls = function () {
+      const changeLink = document.getElementsByTagName("href")[0]
+      for (let index = 0; index < changeLink[0]; index++) {
+        const element = changeLink[index];
+      } if (!(element[0] ===)) {
+
+      }
 
     }
+
+    changeUrls
 
     /* ESERCIZIO 5
      Scrivi una funzione che aggiunga un nuovo elemento lista alla seconda lista non ordinata
